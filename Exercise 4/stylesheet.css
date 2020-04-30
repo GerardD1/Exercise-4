@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+}
+
+.one {
+    background-color: #f44336;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    border-left: none;
+} 
+
+.two {
+    background-color: #FF9800;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.three {
+    background-color: #FFEB3B;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.four {
+    background-color: #8BC34A;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.five {
+    background-color: #2196F3;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.six {
+    background-color: #9C27B0;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100vw;
+    }
+
+}
